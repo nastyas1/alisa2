@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "locale": "ru-RU",
+    "timezone": "UTC",
+    "client_id": "ru.yandex.searchplugin/7.16 (none none; android 4.4.2)",
+    "interfaces": {
+      "screen": {},
+      "payments": {},
+      "account_linking": {}
+    }
+  },
+  "session": {
+    "message_id": 2,
+    "session_id": "69db89ff-d37a-4701-b0d8-d1e1d6014970",
+    "skill_id": "57f7bdce-0566-4d5a-b9b7-3d207b69b864",
+    "user": {
+      "user_id": "84D76ED5FD90FB944DCB6C035F6DFE9D53E7DAE19D66BC5C063B3C1D9526DC98"
+    },
+    "application": {
+      "application_id": "3F4D81A90DE5E4842E7670857861A7757E8EA13F92598F2DE9F0A1B239BE54E8"
+    },
+    "user_id": "3F4D81A90DE5E4842E7670857861A7757E8EA13F92598F2DE9F0A1B239BE54E8",
+    "new": false
+  },
+  "request": {
+    "command": "нет",
+    "original_utterance": "нет",
+    "nlu": {
+      "tokens": [
+        "нет"
+      ],
+      "entities": [],
+      "intents": {}
+    },
+    "markup": {
+      "dangerous_context": false
+    },
+    "type": "SimpleUtterance"
+  },
+  "version": "1.0"
+}
