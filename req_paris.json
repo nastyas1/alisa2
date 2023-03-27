@@ -10,8 +10,8 @@
     }
   },
   "session": {
-    "message_id": 2,
-    "session_id": "69db89ff-d37a-4701-b0d8-d1e1d6014970",
+    "message_id": 1,
+    "session_id": "47b5fb89-445d-4f37-a378-5f77395b9d22",
     "skill_id": "57f7bdce-0566-4d5a-b9b7-3d207b69b864",
     "user": {
       "user_id": "84D76ED5FD90FB944DCB6C035F6DFE9D53E7DAE19D66BC5C063B3C1D9526DC98"
@@ -23,13 +23,24 @@
     "new": false
   },
   "request": {
-    "command": "нет",
-    "original_utterance": "нет",
+    "command": "париж",
+    "original_utterance": "париж",
     "nlu": {
       "tokens": [
-        "нет"
+        "париж"
       ],
-      "entities": [],
+      "entities": [
+        {
+          "type": "YANDEX.GEO",
+          "tokens": {
+            "start": 0,
+            "end": 1
+          },
+          "value": {
+            "city": "париж"
+          }
+        }
+      ],
       "intents": {}
     },
     "markup": {

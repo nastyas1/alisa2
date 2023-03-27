@@ -17,7 +17,12 @@ pprint.pprint(post('http://127.0.0.1:5000/post', json=json.load(ff)).json()['res
 ff.close()
 print()
 
-ff = open('req_yes.json', encoding='utf8')
+ff = open('req_paris.json', encoding='utf8')
+pprint.pprint(post('http://127.0.0.1:5000/post', json=json.load(ff)).json()['response'])
+ff.close()
+print()
+
+ff = open('req_moscow.json', encoding='utf8')
 pprint.pprint(post('http://127.0.0.1:5000/post', json=json.load(ff)).json()['response'])
 ff.close()
 print()

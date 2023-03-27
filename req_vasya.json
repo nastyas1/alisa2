@@ -11,7 +11,7 @@
   },
   "session": {
     "message_id": 1,
-    "session_id": "69db89ff-d37a-4701-b0d8-d1e1d6014970",
+    "session_id": "47b5fb89-445d-4f37-a378-5f77395b9d22",
     "skill_id": "57f7bdce-0566-4d5a-b9b7-3d207b69b864",
     "user": {
       "user_id": "84D76ED5FD90FB944DCB6C035F6DFE9D53E7DAE19D66BC5C063B3C1D9526DC98"
@@ -19,12 +19,12 @@
     "application": {
       "application_id": "3F4D81A90DE5E4842E7670857861A7757E8EA13F92598F2DE9F0A1B239BE54E8"
     },
-    "new": false,
-    "user_id": "3F4D81A90DE5E4842E7670857861A7757E8EA13F92598F2DE9F0A1B239BE54E8"
+    "user_id": "3F4D81A90DE5E4842E7670857861A7757E8EA13F92598F2DE9F0A1B239BE54E8",
+    "new": false
   },
   "request": {
     "command": "вася",
-    "original_utterance": "Вася",
+    "original_utterance": "вася",
     "nlu": {
       "tokens": [
         "вася"
