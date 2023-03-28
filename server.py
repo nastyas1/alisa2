@@ -8,9 +8,9 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.INFO)
 
 cities = {
-    'москва': ['1533899/fb05cc8a3ef34999286d', '965417/554131386daebac3f873'],
-    'нью-йорк': ['997614/93489ea1dfb565f162bd', '213044/e251536a193a659474f6'],
-    'париж': ["965417/7793d63c3b23c10e2d4d", '213044/8c88f21d02d14e2f1b6c']
+    'москва': ['213044/166b3cf8317416c1beb1', '1030494/54aa9346422cba9d83ad'],
+    'нью-йорк': ['965417/62a4848124c379f8a11d', '997614/6539ca07f958c3a35e11'],
+    'париж': ["965417/98325bdf6187945035b5", '1652229/9ed01c8957efd7c8f4ab']
 }
 
 sessionStorage = {}
@@ -119,6 +119,20 @@ def play_game(res, req):
         res['response']['card']['type'] = 'BigImage'
         res['response']['card']['title'] = 'Что это за город?'
         res['response']['card']['image_id'] = cities[city][attempt - 1]
+        res['response']['buttons'] = [
+                    {
+                        'title': 'Москва',
+                        'hide': True
+                    },
+                    {
+                        'title': 'Нью-Йорк',
+                        'hide': True
+                    },
+                    {
+                        'title': 'Париж',
+                        'hide': True
+                    }
+                ]
         res['response']['text'] = 'Тогда сыграем!'
     else:
         # сюда попадаем, если попытка отгадать не первая
